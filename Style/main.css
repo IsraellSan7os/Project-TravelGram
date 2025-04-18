@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px;
+}
+
+main img{  
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  flex-direction: row; 
+
+}
+
+main.container img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  main.container img:hover {
+    transform: scale(1.05); /* Faz a imagem crescer */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adiciona um relevo/sombra */
+
+  }
+  
