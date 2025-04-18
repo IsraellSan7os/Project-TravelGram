@@ -1,0 +1,10 @@
+project:
+  name: Travelgram
+  description: Perfil de Viagem
+  technologies:
+    - HTML5
+    - CSS3
+    - JavaScript
+  author: Isabela Torres
+  version: 1.0
+  license: MIT
